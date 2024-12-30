@@ -155,3 +155,177 @@ a:hover {
 
 
 /* Mian Sections */
+section
+{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section_cont
+{
+    display: flex;
+}
+
+/* Profile section */
+
+#profile
+{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.sec_pic_cont
+{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+.section_text
+{
+    align-self: center;
+    text-align: center;
+}
+
+.section_text p
+{
+    font-weight: 600;
+}
+.section_text_p1
+{
+    text-align: center;
+}
+.section_text_p2
+{
+    font-size: 1.75rem;
+}
+
+.title
+{
+    font-size: 3rem;
+    text-align: center;
+}
+.social_cont
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+/* Icons */
+
+.icon
+{
+    cursor: pointer;
+    height: 2rem;
+}
+
+.btn_cont
+{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn
+{
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.btn_color_1,
+.btn_color_2
+{
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn_color_1:hover,
+.btn_color_2:hover
+{
+    cursor: pointer;
+    border: rgb(53, 53, 53);
+}
+.btn_color_1,
+.btn_color_2:hover
+{
+    background: rgb(53, 53, 53) ;
+    color: white;
+}
+.btn_color_1:hover
+{
+    background: rgb (0,0,0) ;
+}
+.btn_color_2
+{
+    background: none;
+}
+.btn_color_2:hover
+{
+    border: rgb (255,255,255) 0.1rem solid;
+}
+.btn_cont
+{
+    gap: 1rem;
+}
+/* About section */
+#about
+{
+    position: relative;
+}
+.about_cont
+{
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.about_details_cont
+{
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about_cont, .about_details_cont
+{
+    display: flex;
+}
+.about_pic
+{
+    border-radius: 2rem;
+}
+.arrow
+{
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5 rem;
+}
+.details_cont
+{
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgd(163,163,163);
+    text-align: center; 
+}
+.section_cont
+{
+    gap: 4rem;
+    height: 80%;
+}
+.sec_pic_cont
+{
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
