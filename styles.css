@@ -1,0 +1,70 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+p {
+    color: rgb(85, 85, 85);
+}
+
+/* transtions */
+
+a,
+.btn {
+    transition: all 300ms ease;
+}
+
+/* Desktop navigation */
+
+nav,
+.my_nav_links
+{
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.my_nav_links
+{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a {
+    color: black;
+    text-decoration-color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
+.my_nav_logo
+{
+    font-size: 2rem;
+}
+.my_nav_logo:hover
+{
+    cursor: default;
+}
