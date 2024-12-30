@@ -1,0 +1,9 @@
+@media screen and (max-width: 1200px)
+{
+    #my_nav{
+        display:none;
+    }
+    #ham_nav{
+        display:flex;
+    }
+}
